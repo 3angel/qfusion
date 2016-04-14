@@ -91,6 +91,7 @@ extern "C" {
 #pragma warning( disable : 4267 )       // conversion from 'size_t' to whatever, possible loss of data
 #endif
 
+#pragma warning( disable : 4324 )       // structure was padded due to alignment specifier
 #endif
 
 #if defined(_MSC_VER) && defined(_I64_MAX)
